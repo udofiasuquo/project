@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box
+}
+    
+    body {
+    background-color: pink;
+    font-family: 'Segoe UI',
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.container {
+    background-color: white;
+    width: 50%;
+    height: 70%;
+    padding: 5%;
+    margin-left: 25%;
+    
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+    
+}
+
+button {
+    background-color: #006a71; /*blue Lagoon*/
+    border: none;
+    
+     color: white;
+    font-weight: bold;
+    border-radius: 5rem;
+    padding: 15px 32px;
+     /* position: fixed;  */
+    margin: 5% 20% 0 20%;
+     
+    outline: none; 
+}
+
+#quoteDisplay,
+.match {
+    color: cadetblue;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 0px;
+    
+}
+
+.calculatorHeader {
+    margin: 5%;
+}
+.loveContainer {
+    margin: -4%  25%;
+    width: 50%;
+    background-color: white;
+    /* padding-top: 5px;
+    pading-1%  5% 0%; */
+    height: 70%;
+}
+
+
+.avatar1 {
+    border-radius: 50%;
+    width: 30%;
+     margin: 3% 10% 0 28%; 
+    padding: 5%;
+    float: left;
+}
+
+.avatar2 {
+    border-radius: 50%;
+    width: 30%;
+    margin: 5% -20%;
+    padding: 5%;
+    float: left;
+}
+
+
+
+#name {
+    font-size: 1rem;
+    outline: none;
+    padding: 2%;
+    margin: 5% 5%;
+    background-color: #ffd;
+    width: 90%;
+}
+
+.match {
+    padding: 5%;
+    border: 1px solid yellowgreen;
+    background-color: #393e46;
+    margin: 5%;
+    color: white;
+}
+
+.calculateButton {
+    font-size: 1rem;
+    margin: 10% 40% 10% 20%;
+}
+
+
+p {
+    padding: 1% 5%;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #204051;
+    margin-top: 5%;
+    padding: 1% 5%;
+    
+    
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.fab {
+    font-size: 30px;
+     padding: 10px;
+    color: white;
+    
+    
+}
+
+a {
+    display: inline-block;
+    vertical-align: middle;
+     
+}
+    
+    
+/* }
+.footer a {
+    margin: 5px 100px;
+} */
+
+/* .heart{
+    position: relative;
+    width: 100px;
+    height: 90px;
+    margin-top: 10px;
+}
+.heart::before, .heart::after {
+    content: "ttt";
+    position: absolute;
+    top: 0;
+    width: 52px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    background: green;
+}
+
+.heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart::after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+} */
+
