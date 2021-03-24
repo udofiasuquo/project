@@ -1,91 +1,61 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-     <title>Quote Generator</title>
-     <link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/3963745ccd.js" crossorigin="anonymous"></script>
- </head>
- <body>
-     
-        <h1>#Project 1: Simple Quote Generator</h1>
-        
-        <div class="container">
-            <div id="quoteDisplay">
-            <!-- New quotes appear here-->
-            </div>
-            
-            <button onclick="newQuote()">New Quote</button>
-       </div>
+    <script
+      src="https://kit.fontawesome.com/3963745ccd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="project2.html">Project2</a></li>
+            <li><a href="project3.html">Project3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-       <h1 class="calculatorHeader">#Project 2: Love Calculator</h1>
+    <div class="container">
+      <h1>#Project 1: Simple Quote Generator</h1>
+      <div class="flex-container">
+        <div class="button-1">
+          <button onclick="newQuote()">New Quote</button>
+        </div>
 
-       <div class="loveContainer"> 
-           
-           <p>This is a love calculator designed for two individuals in a romantic relationship to help them determine whether they are compatible for marriage. To check your compatibility with your partner, enter your name and their name in the spaces below:</p>
+        <div id="quoteDisplay">
+          <!-- New quotes appear here-->
+        </div>
+      </div>
+    </div>
 
-           <input id="name" type="text" value="" placeholder="Enter your name..."> <br>
-
-           
-               <img class="avatar1" src="images/favatar.jpeg" alt="female avatar"> 
-               <div class="heart"></div>
-               <img class="avatar2" src="images/mavatar.jpeg" alt="male avatar"> <br>
-           
-           
-           <input id="name" type="text" placeholder="Enter your friend's name..."> <br>
-
-
-           <button class="calculateButton" onclick="calculateLove()">calculate</button>
-           
-           <div class="match">
-               <!-- lovescore appears here-->
-           </div>
-
-            
-
-           
-
-       </div>
-
-      
-
-
-        
-
-        <!-- <p>
-            Lookout ahoy reef Admiral of the Black provost lee pillage ballast keelhaul jib. Boom lad topsail Corsair grapple crack Jennys tea cup schooner brig pink tackle. Topmast holystone Spanish Main cable me main sheet
-            draft loot quarter pillage.
-        </p>
-        <p>
-            Jack Ketch Shiver me timbers rope's end sloop crack Jennys tea cup broadside log gabion dance the hempen jig
-            aye. Quarterdeck avast lookout topgallant wherry clap of thunder knave keelhaul ye reef. Pillage capstan
-            yo-ho-ho hands Corsair chandler dance the hempen jig Pieces of Eight league run a rig.
-        </p>
-
-        <p>
-            Ballast tackle loaded to the gunwalls pirate skysail snow reef sails flogging bucko coxswain. Mizzenmast
-            squiffy yawl to go on account execution dock scuppers Cat o'nine tails poop deck chase weigh anchor.
-            Yo-ho-ho me poop deck chase dead men tell no tales ho parley interloper sutler no prey, no pay.
-        </p> -->
-        
-      
-     
-     <script src="index.js"></script>
- </body>
+    <!-- <div class="heart"></div> -->
 
     <footer class="footer">
-        <a href="https://www.linkedin.com/in/udofia-udo-519200118/"><i
-        class="social-icon fab fa-linkedin"></i></a>
-        
-        <a href="https://web.facebook.com/udoa2"><i class="social-icon fab fa-facebook-square"></i></a>
-      
-        <a class="social-icon" href="https://twitter.com/udofiasuquo"><i
-               class=" social-icon fab fa-twitter-square"></i></a>
-       <p>© Copyright 2020 Project</p>
+      <a href="https://www.linkedin.com/in/udofia-udo-519200118/"
+        ><i class="social-icon fab fa-linkedin center"></i
+      ></a>
 
+      <a href="https://web.facebook.com/udoa2"
+        ><i class="social-icon fab fa-facebook-square center"></i
+      ></a>
+
+      <a class="social-icon" href="https://twitter.com/udofiasuquo"
+        ><i class="social-icon fab fa-twitter-square center"></i
+      ></a>
+      <p>© Copyright 2021 Project</p>
     </footer>
- </html>
+
+    <script src="index.js"></script>
+  </body>
+</html>

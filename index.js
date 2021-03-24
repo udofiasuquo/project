@@ -50,30 +50,19 @@
 
 "It is perfectly okay to write garbage as long as you edit brilliantly. - C.J.Cherryh",
 
-"Half my life is an act of revision. - John Irving"
+"Half my life is an act of revision. - John Irving",
 
-// // 27. "Writing without revising is the literary equivalent of waltzing gaily out of the house in your underwear."
+ "Writing without revising is the literary equivalent of waltzing gaily out of the house in your underwear. - Patricia Fuller",
 
-// //     - Patricia Fuller
+ "Write your first draft with your heart. Rewrite with your head. - Mike Rich",
 
-// // 28. "Write your first draft with your heart. Rewrite with your head."
+ "So the writer who breeds more words than he needs, is making a chore for the reader who reads. - Dr.Seuss",
 
-// //     - Mike Rich
+ "You write to communicate to the hearts and minds of others what's burning inside you, and we edit to let the fire show through the smoke.- Arthur Plotnik",
 
-// // 29. "So the writer who breeds more words than he needs, is making a chore for the reader who reads."
+"Anyone and everyone taking a writing class knows that the secret of good writing is to cut it back, pare it down, winnow, chop, hack, prune, and trim, remove every superfluous word, compress, compress, compress... - Nick Hornby",
 
-// //     - Dr.Seuss
-
-// // 30. "You write to communicate to the hearts and minds of others what's burning inside you, and we edit to let the fire show through the smoke."
-
-// //     - Arthur Plotnik
-
-// // 31. "Anyone and everyone taking a writing class knows that the secret of good writing is to cut it back, pare it down, winnow, chop, hack, prune, and trim, remove every superfluous word, compress, compress, compress..."
-
-// //     - Nick Hornby
-
-// // 32. "When you write a book, you spend day after day scanning and identifying the trees. When you’re done, you have to step back and look at the forest."//
-
+"When you write a book, you spend day after day scanning and identifying the trees. When you’re done, you have to step back and look at the forest.",
 ];
 
 
@@ -82,12 +71,7 @@ function newQuote() {
     document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];   
 }
 
-function nameInput() {
-    
-
-}
-
-
+  
 function calculateLove() {
     var input1 = document.querySelectorAll("#name")[0].value;
 
@@ -113,9 +97,29 @@ function calculateLove() {
     if(loveScore > 70){
         document.querySelector(".match").innerHTML = "Hello, " + name + ", Your lovescore is " + loveScore + "%. You love each other well well."
     } if(loveScore <= 70){
-        document.querySelector(".match").innerHTML = "Hello, " + name + ", Your lovescore is " + loveScore + "%. Decide carefully."
+        document.querySelector(".match").innerHTML = "Hello, " + name + ", Your lovescore is " + loveScore + "%. Choose carefully."
     } 
     if (loveScore <= 30) {
         document.querySelector(".match").innerHTML = "Hello, " + name + ", Your lovescore is " + loveScore + "%. You go together like oil and water."
     }
 }
+
+let output = [];
+ 
+function fizzBuzz(){
+    for(let count = 1; count < 101; count++){
+        if(count % 3 === 0 && count % 5 === 0){
+          output.push(" FizzBuzz ");
+        } else if(count % 3 === 0){
+            output.push(" Fizz ");
+        } else if(count % 5 === 0){
+            output.push(" Buzz ");
+        }
+            else {
+            output.push(" " + count);
+        }
+    }
+    document.getElementById("show").innerHTML = output;
+}
+
+document.querySelectorAll
